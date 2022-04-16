@@ -4,7 +4,7 @@
  */
 
 
-
+package javaapplication1;
 
 import java.awt.Image;
 import java.awt.Toolkit;
@@ -47,7 +47,7 @@ public class Calculator extends javax.swing.JFrame {
         jRadioButton1.setEnabled(true);
         jTextField1.setDocument(new writingLimit() );
 
-        Image icon = Toolkit.getDefaultToolkit().getImage("C:\\private\\calc.png");
+        Image icon = Toolkit.getDefaultToolkit().getImage("");
         setIconImage(icon);
     }
 
